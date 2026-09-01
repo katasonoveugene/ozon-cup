@@ -1,0 +1,12 @@
+{
+  "chosen": {
+    "categories": {
+      "БАД": {
+        "dense_name": "rbf_c30_g1_plain"
+      },
+      "Легковоспламеняющиеся": {
+        "dense_name": "svc_003_plain"
+      }
+    }
+  }
+}

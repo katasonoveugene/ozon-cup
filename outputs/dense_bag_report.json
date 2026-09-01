@@ -1,0 +1,29 @@
+{
+  "rows": 12971,
+  "embedding_shape": [
+    12971,
+    2048
+  ],
+  "score": 0.7998210503777023,
+  "parts": {
+    "БАД": 0.9518433586170401,
+    "Легковоспламеняющиеся": 0.6477987421383647
+  },
+  "thresholds": {
+    "БАД": -0.17629751563072205,
+    "Легковоспламеняющиеся": -0.6756043136119843
+  },
+  "artifact_bytes": 59260583,
+  "elapsed_seconds": 12.443924903869629,
+  "config": {
+    "seeds": [
+      20260829
+    ],
+    "folds": 5,
+    "aggregation": "mean folds within seed, median across seeds",
+    "category_specs": {
+      "БАД": "rbf_c30_g1_plain",
+      "Легковоспламеняющиеся": "svc_003_plain"
+    }
+  }
+}

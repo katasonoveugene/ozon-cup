@@ -1,0 +1,31 @@
+{
+  "embedding_batch_size": 16,
+  "embedding_max_length": 4096,
+  "embedding_max_pixels": 262144,
+  "comment_batch_size": 64,
+  "comment_max_new_tokens": 40,
+  "categories": {
+    "БАД": {
+      "dense_name": "dense_score",
+      "sparse_weight": 0.5,
+      "dense_weight": 0.5,
+      "sparse_center": 0.6020823590096722,
+      "sparse_scale": 0.7444278741837835,
+      "dense_center": 0.8861188933389381,
+      "dense_scale": 1.3165563415679886,
+      "threshold": -0.6452801080916453,
+      "f1": 0.9600926420808836
+    },
+    "Легковоспламеняющиеся": {
+      "dense_name": "dense_score",
+      "sparse_weight": 1.0,
+      "dense_weight": 0.0,
+      "sparse_center": -0.9712040215897906,
+      "sparse_scale": 0.3111762596087378,
+      "dense_center": -0.9380967761009054,
+      "dense_scale": 0.10269112926673153,
+      "threshold": 1.0610744881482783,
+      "f1": 0.92
+    }
+  }
+}

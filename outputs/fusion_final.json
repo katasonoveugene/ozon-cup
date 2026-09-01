@@ -1,0 +1,201 @@
+{
+  "categories": {
+    "БАД": [
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.5,
+        "dense_weight": 0.5,
+        "sparse_center": 0.6020823590096722,
+        "sparse_scale": 0.7444278741837835,
+        "dense_center": 0.8861188933389381,
+        "dense_scale": 1.3165563415679886,
+        "threshold": -0.6452801080916453,
+        "f1": 0.9600926420808836
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.7,
+        "dense_weight": 0.30000000000000004,
+        "sparse_center": 0.6020823590096722,
+        "sparse_scale": 0.7444278741837835,
+        "dense_center": 0.8861188933389381,
+        "dense_scale": 1.3165563415679886,
+        "threshold": -0.6050097465925606,
+        "f1": 0.9599357544391898
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.85,
+        "dense_weight": 0.15000000000000002,
+        "sparse_center": 0.6020823590096722,
+        "sparse_scale": 0.7444278741837835,
+        "dense_center": 0.8861188933389381,
+        "dense_scale": 1.3165563415679886,
+        "threshold": -0.7271762900465599,
+        "f1": 0.9586060498850169
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.3,
+        "dense_weight": 0.7,
+        "sparse_center": 0.6020823590096722,
+        "sparse_scale": 0.7444278741837835,
+        "dense_center": 0.8861188933389381,
+        "dense_scale": 1.3165563415679886,
+        "threshold": -0.6988278143061258,
+        "f1": 0.958314816460759
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 1.0,
+        "dense_weight": 0.0,
+        "sparse_center": 0.6020823590096722,
+        "sparse_scale": 0.7444278741837835,
+        "dense_center": 0.8861188933389381,
+        "dense_scale": 1.3165563415679886,
+        "threshold": -0.6335909372638054,
+        "f1": 0.9580145881515745
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.15,
+        "dense_weight": 0.85,
+        "sparse_center": 0.6020823590096722,
+        "sparse_scale": 0.7444278741837835,
+        "dense_center": 0.8861188933389381,
+        "dense_scale": 1.3165563415679886,
+        "threshold": -0.6756331179288259,
+        "f1": 0.956792873051225
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.0,
+        "dense_weight": 1.0,
+        "sparse_center": 0.6020823590096722,
+        "sparse_scale": 0.7444278741837835,
+        "dense_center": 0.8861188933389381,
+        "dense_scale": 1.3165563415679886,
+        "threshold": -0.8069661551319152,
+        "f1": 0.955012398157988
+      }
+    ],
+    "Легковоспламеняющиеся": [
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 1.0,
+        "dense_weight": 0.0,
+        "sparse_center": -0.9712040215897906,
+        "sparse_scale": 0.3111762596087378,
+        "dense_center": -0.9380967761009054,
+        "dense_scale": 0.10269112926673153,
+        "threshold": 1.0610744881482783,
+        "f1": 0.92
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.85,
+        "dense_weight": 0.15000000000000002,
+        "sparse_center": -0.9712040215897906,
+        "sparse_scale": 0.3111762596087378,
+        "dense_center": -0.9380967761009054,
+        "dense_scale": 0.10269112926673153,
+        "threshold": 1.2250873029928955,
+        "f1": 0.9090909090909091
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.7,
+        "dense_weight": 0.30000000000000004,
+        "sparse_center": -0.9712040215897906,
+        "sparse_scale": 0.3111762596087378,
+        "dense_center": -0.9380967761009054,
+        "dense_scale": 0.10269112926673153,
+        "threshold": 1.154230983738227,
+        "f1": 0.9019607843137255
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.5,
+        "dense_weight": 0.5,
+        "sparse_center": -0.9712040215897906,
+        "sparse_scale": 0.3111762596087378,
+        "dense_center": -0.9380967761009054,
+        "dense_scale": 0.10269112926673153,
+        "threshold": 1.6539178228702989,
+        "f1": 0.8992248062015504
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.3,
+        "dense_weight": 0.7,
+        "sparse_center": -0.9712040215897906,
+        "sparse_scale": 0.3111762596087378,
+        "dense_center": -0.9380967761009054,
+        "dense_scale": 0.10269112926673153,
+        "threshold": 1.79279273751526,
+        "f1": 0.8814432989690721
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.15,
+        "dense_weight": 0.85,
+        "sparse_center": -0.9712040215897906,
+        "sparse_scale": 0.3111762596087378,
+        "dense_center": -0.9380967761009054,
+        "dense_scale": 0.10269112926673153,
+        "threshold": 1.9511923252839374,
+        "f1": 0.8616187989556136
+      },
+      {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.0,
+        "dense_weight": 1.0,
+        "sparse_center": -0.9712040215897906,
+        "sparse_scale": 0.3111762596087378,
+        "dense_center": -0.9380967761009054,
+        "dense_scale": 0.10269112926673153,
+        "threshold": 2.7557611877733668,
+        "f1": 0.8418079096045198
+      }
+    ]
+  },
+  "dense_candidates": [
+    "dense_score"
+  ],
+  "chosen": {
+    "embedding_batch_size": 128,
+    "embedding_max_length": 4096,
+    "embedding_max_pixels": 262144,
+    "comment_batch_size": 128,
+    "comment_max_new_tokens": 40,
+    "categories": {
+      "БАД": {
+        "dense_name": "dense_score",
+        "sparse_weight": 0.5,
+        "dense_weight": 0.5,
+        "sparse_center": 0.6020823590096722,
+        "sparse_scale": 0.7444278741837835,
+        "dense_center": 0.8861188933389381,
+        "dense_scale": 1.3165563415679886,
+        "threshold": -0.6452801080916453,
+        "f1": 0.9600926420808836
+      },
+      "Легковоспламеняющиеся": {
+        "dense_name": "dense_score",
+        "sparse_weight": 1.0,
+        "dense_weight": 0.0,
+        "sparse_center": -0.9712040215897906,
+        "sparse_scale": 0.3111762596087378,
+        "dense_center": -0.9380967761009054,
+        "dense_scale": 0.10269112926673153,
+        "threshold": 1.0610744881482783,
+        "f1": 0.92
+      }
+    }
+  },
+  "chosen_parts": {
+    "БАД": 0.9600926420808836,
+    "Легковоспламеняющиеся": 0.92
+  },
+  "chosen_score": 0.9400463210404418
+}

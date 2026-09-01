@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Official competition data and regenerated outputs.
+data/
+outputs/*
+!outputs/mixed.npy
+!outputs/sparse_bag_oof.npz
+!outputs/sparse_bag_report.json
+!outputs/raw_sparse_hybrid_7seed_oof.npz
+!outputs/dense_bag_oof.npz
+!outputs/dense_bag_report.json
+!outputs/kernel_embedding_oof.npz
+!outputs/duplicate_bag_features.npz
+!outputs/fusion_final.json
