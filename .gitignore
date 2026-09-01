@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Official competition data and regenerated outputs.
+data/
+outputs/*
+!outputs/mixed.npy
+!outputs/image.npy
+!outputs/source_template_stress_manifest_v2.npz
+!outputs/validated_blend/
+outputs/validated_blend/*
+!outputs/validated_blend/training_report.json

@@ -1,0 +1,7 @@
+{
+  "embedding_batch_size": 16,
+  "embedding_max_length": 4096,
+  "embedding_max_pixels": 262144,
+  "comment_batch_size": 64,
+  "comment_max_new_tokens": 40
+}

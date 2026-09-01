@@ -1,0 +1,108 @@
+{
+  "artifact": "outputs/validated_blend/validated_blend.joblib",
+  "artifact_bytes": 182950559,
+  "artifact_sha256": "a07d311724263e9fbfad9f3b2dea504955f4993934229d9d81b409e6e425735d",
+  "calibration": {
+    "БАД": {
+      "centers": {
+        "mixed_linear": 0.43777626752853394,
+        "mixed_mean2": 0.037325937300920486,
+        "mixed_rbf": 0.7623072266578674,
+        "separated": 0.5278416275978088,
+        "sparse": 0.5503488779067993
+      },
+      "scales": {
+        "mixed_linear": 0.9039440155029297,
+        "mixed_mean2": 0.07120656222105026,
+        "mixed_rbf": 1.1043226718902588,
+        "separated": 0.6263282299041748,
+        "sparse": 0.678736686706543
+      },
+      "source_group_oof_f1": 0.9317465873293664,
+      "threshold": -0.7554238438606262,
+      "weights": {
+        "mixed_linear": 0.16666666666666666,
+        "mixed_mean2": 0.16666666666666666,
+        "mixed_rbf": 0.16666666666666666,
+        "separated": 0.25,
+        "sparse": 0.25
+      }
+    },
+    "Легковоспламеняющиеся": {
+      "centers": {
+        "mixed_linear": -1.261406421661377,
+        "mixed_mean2": -0.13296514749526978,
+        "mixed_rbf": -1.3277820348739624,
+        "separated": -0.9669074416160583,
+        "sparse": -0.976803719997406
+      },
+      "scales": {
+        "mixed_linear": 0.7526834607124329,
+        "mixed_mean2": 0.06819039583206177,
+        "mixed_rbf": 0.4850766062736511,
+        "separated": 0.1874963492155075,
+        "sparse": 0.21605800092220306
+      },
+      "source_group_oof_f1": 0.6991404011461319,
+      "threshold": 1.7518305778503418,
+      "weights": {
+        "mixed_linear": 0.16666666666666666,
+        "mixed_mean2": 0.16666666666666666,
+        "mixed_rbf": 0.16666666666666666,
+        "separated": 0.25,
+        "sparse": 0.25
+      }
+    }
+  },
+  "data_sha256": "4bc59e640563160fa04572b570606ceb1dd3d31627c6cf7fd1750ae4ea61f510",
+  "elapsed_seconds": 125.5959861278534,
+  "embedding_sha256": "cea52432aa2d61888a81b5ad7548322beac86c50eb1211300d70ac2fe773a06f",
+  "fold_key": "fold__seed_15485863",
+  "fold_reports": [
+    {
+      "elapsed_seconds": 17.332606077194214,
+      "fold": 0,
+      "rows": 2594
+    },
+    {
+      "elapsed_seconds": 16.953941106796265,
+      "fold": 1,
+      "rows": 2595
+    },
+    {
+      "elapsed_seconds": 17.260198831558228,
+      "fold": 2,
+      "rows": 2594
+    },
+    {
+      "elapsed_seconds": 18.77969217300415,
+      "fold": 3,
+      "rows": 2594
+    },
+    {
+      "elapsed_seconds": 17.08674693107605,
+      "fold": 4,
+      "rows": 2594
+    }
+  ],
+  "manifest_sha256": "ed9908fc8a22241181ba6f574b40c059d5da148a41705e68be36bb2a673e0d8b",
+  "positive_predictions": {
+    "БАД": 5864,
+    "Легковоспламеняющиеся": 151
+  },
+  "protocol": "source-group-crossfit-fixed-five-component-blend-v1",
+  "rows": 12971,
+  "source_group_oof_category_f1": {
+    "БАД": 0.9317465873293664,
+    "Легковоспламеняющиеся": 0.6991404011461319
+  },
+  "source_group_oof_macro_f1": 0.8154434942377491,
+  "status": "complete_source_group_crossfit_production_fit",
+  "weights": {
+    "mixed_linear": 0.16666666666666666,
+    "mixed_mean2": 0.16666666666666666,
+    "mixed_rbf": 0.16666666666666666,
+    "separated": 0.25,
+    "sparse": 0.25
+  }
+}
